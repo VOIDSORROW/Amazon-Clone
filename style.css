@@ -1,0 +1,341 @@
+*{
+    margin: 0.1px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color:#0F1111;  
+    display: flex;  
+    align-items: center;
+    color: white;
+    /* justify-content: center space-evenly; */
+}
+
+.first-box{   
+    height: 50px;  
+    width: 100px;
+    display: flex-end;
+}
+
+.logo{
+    /* width: auto; */
+    /* margin: 1px; */
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* .txt{
+    display: flex;
+    height: 50px;
+    width: auto;
+    color: white;
+    font-family: Arial,sans-serif;
+    align-items: center;
+    /* width: 100%; */
+/* } */
+
+.address-box,p1,p2{
+    display: flex-end;
+    margin-left: 5px;
+    padding: 1px;
+    height: 50px;   
+    /* width:flex; */
+    font-family: Arial,sans-serif;
+    color: #CCCCCC; 
+    justify-content: center space-around;
+    align-items: center;
+}
+
+.p1{
+    /* display: flex-end; */
+    margin: 5px;
+    height: 14px;
+    width: 210px;
+    font-size: 0.85rem;
+    color: #CCCCCC;
+}
+
+.p2{    
+    margin-left: 5px;
+    /* display: flex-end; */
+    margin-top: 5px;
+    height: 16px;
+    width: 170px;
+    font-size: 0.85rem;
+    color: #CCCCCC;
+}
+
+.icon-and-location{
+    margin-left: 22px;
+    justify-content: center space-around;
+    display: flex inline;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.search-box-division{
+    margin-left: 4px; ;
+    justify-content: center space-evenly;
+    display: flex;
+    color: #0F1111;
+    height: auto;
+    width: 60rem;
+    justify-content: center space-evenly;
+    border-radius: 4px;
+    /* border: none; */
+}
+
+.search-select{
+    height: 2.6rem;
+    width: 48px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #EFEFEF;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    border: none;
+}
+
+.search-input{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size:small;
+    border: none;
+    justify-content: center space-evenly;
+}
+
+.search-icon{
+    /* margin: 1px; */
+    /* border: 1px black; */
+    height: auto;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 4px; */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:#FEBD68;
+    /* color: black; */
+    align-items: center;
+    font-size:large;
+    /* border: none; */
+    color: #0F1111;
+}
+
+.country{
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+    color: #4ba9a9;
+}
+
+.country-logo{
+    /* display: flex; */
+    margin-top: 20px;
+    margin-left: 10px;
+    /* padding: 1%; */
+    background-image: url("india.png");
+    background-position: center space-around;
+    background-size: cover;
+    height:1rem;
+    width: 1.7rem;
+    color: #0F1111;
+    align-items: center;
+    justify-content: center space-around;
+}
+
+.country-lang{
+    /* padding: 2%; */
+    /* margin-top: 1px; */
+    height:50px;
+    width: auto;
+    /* display: flex; */
+    background-color: #0F1111;
+    color:#CCCCCC ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center space-evenly;
+    border: none;
+}
+
+.sign-in{
+    display: flex-end;
+    margin-left: 5px;
+    height: 50px;
+    width: 132px;
+    /* align-items: center; */
+    /* justify-content: center;  */
+}
+
+.spn{   
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 14px;
+    width: 71px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.accounts-select{
+    display: flex;
+    height: 20px;
+    margin-left: 1px;
+    width: auto;   
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #0F1111;
+    font-family: Arial, sans-serif;
+}
+
+.returns-and-orders{
+    display: flex-end;
+    margin-left: 9px;
+    height: 50px;
+    width: auto;
+    /* font-size: 0.8rem; */
+    justify-content: center;
+}
+
+.returns{
+    margin-top: 4px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.orders{
+    /* display: flex-end; */
+    height: auto;
+    width: auto;
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+.cart{
+    display: flex;
+    margin-left: 14px;
+    height: 50px;
+    width:fit-content;
+    align-items: center;
+    color:#FFFFFF;
+    justify-content:end;
+}
+
+.cart-text{
+    height: 14px;
+    width: auto;
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+}
+
+.border{
+    border: 1px solid white transparent;
+}
+
+.border:hover{
+    border: 0.85px solid white;
+}
+
+.panel{
+    display: flex;
+    height: 2.5rem;
+    background-color: #222f3D;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    font-family: Arial,sans-serif;
+}
+
+.panel-options{
+    width: 75%;
+}
+
+.panel-options p{
+    display: flex inline;
+    font-size: 0.875rem;
+    font-family: Arial,sans-serif;
+    margin-left: 0.6rem;
+}
+
+.prim{
+    color: #FFFFFF;
+    background-color:#222f3D;
+    font-family: Arial,sans-serif;
+    border: none;
+}
+
+.shopp{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section{
+    height: 600px;
+    width: 100%;
+    background-image: url("Hero_image.jpg");
+    background-size: cover;
+}
+
+.boxer-section{
+    display:flex;
+    height: 600px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:lightcyan;
+}
+
+.box{
+    display: flex-end;
+    height: 400px;  
+    width:24%;
+    /* border: px solid black; */
+    border-radius: 10px;
+    /* background-color:cadetblue; */
+    background-color: white;
+    margin-bottom: 37rem;
+    /* align-items: center; */
+}
+
+.box-image{
+    height: 200px;
+    width: 90%;
+    /* display: flex-end; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 5%;
+}
+
+.see{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 5%;
+}
